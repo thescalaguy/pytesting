@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pytesting"
+version = "0.1.0"
+description = ""
+authors = ["Fasih Khatib <hellofasih.confound928@passinbox.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+hypothesis = "^6.119.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
