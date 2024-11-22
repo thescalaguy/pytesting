@@ -11,9 +11,9 @@ def create(name: str, dob: datetime.date) -> Person:
     :param dob: Date of birth of the person.
     :return: A Person instance.
     """
-    # name = sanitize(name)
+    name = sanitize(name)
 
     assert name, f"name cannot by empty"
-    # assert 0 <= (dob.year - datetime.date.today().year) <= Person.MAX_AGE
+    assert 0 <= (datetime.date.today().year - dob.year) <= Person.MAX_AGE
 
     return Person.create(name=name, dob=dob)
