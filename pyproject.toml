@@ -7,11 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-
-
-[tool.poetry.group.test.dependencies]
 pytest = "^8.3.3"
 hypothesis = "^6.119.3"
+peewee = "^3.17.8"
+psycopg2-binary = "^2.9.10"
+
+
 
 [build-system]
 requires = ["poetry-core"]

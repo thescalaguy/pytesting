@@ -1,1 +1,1 @@
-from . fibonacci import fibonacci
+from .fibonacci import fibonacci
