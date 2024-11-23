@@ -6,7 +6,7 @@ def fibonacci(n: int) -> int:
     """
     Computes the nth number in the Fibonacci sequence.
     """
-    assert n >= 0, f"n must be >= 0; {n} was passed."
+    assert 0 <= n <= 300, f"n must be between 0 and 300; {n} was passed."
 
     if n <= 1:
         return n
