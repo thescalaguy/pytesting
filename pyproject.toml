@@ -11,6 +11,9 @@ pytest = "^8.3.3"
 hypothesis = "^6.119.3"
 peewee = "^3.17.8"
 psycopg2-binary = "^2.9.10"
+flask = "^3.1.0"
+python-dateutil = "^2.9.0.post0"
+gunicorn = "^23.0.0"
 
 
 
