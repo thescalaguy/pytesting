@@ -1,5 +1,5 @@
 import pytest
-from hypothesis import given, strategies as st, example
+from hypothesis import given, strategies as st
 
 from functions import fibonacci
 
